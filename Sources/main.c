@@ -6,7 +6,7 @@
 #include "IO_Map.h"
 
 /*Global Vars - BSS*/
-signed int a, b, c, d, e; 
+signed int x, b, c, d, e; 
 
 int main(void)
 /*lint -restore Enable MISRA rule (6.3) checking. */
@@ -24,7 +24,7 @@ int main(void)
 		e^=d;
 		d^=e;
 
-		a = b * ( c  -  d ) + e;
+		x = b * ( c  -  d ) + e;
 		
 		//	a = b - ( c  -  d ) + e
 		//	   a = b - T1 + e
